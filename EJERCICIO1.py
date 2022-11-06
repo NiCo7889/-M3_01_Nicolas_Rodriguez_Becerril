@@ -16,9 +16,9 @@ class Alumno():
         print("El alumno se ha creado con éxito. ")
     def clasificacion(self):
         if self.nota >= 5:
-            print( self.nombre, "está apronado. ")
+            print(self.nombre,"está apronado con un",self.nota)
         else:
-            print( self.nombre, "está suspenso. ")
+            print(self.nombre,"está suspenso cun un",self.nota)
 
 print("\n")
 alumno1=Alumno("Carlos", 4)
